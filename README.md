@@ -139,8 +139,8 @@ flowchart TD
     showstdprofile -->Z@{ shape: circle, label: "End" }
 ```
 ### Prompts 🤖 
- 
- 
+## User case : Create Student Profile
+## Role : Student
 
 The following table documents the step-by-step process of using AI to generate, troubleshoot, and refine the student profile use case.
 
