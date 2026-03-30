@@ -140,13 +140,6 @@ flowchart TD
 ```
 ### Prompts
 ### 🤖 AI Implementation: Role-Based Access Control
-The logic for the NestJS/Prisma RBAC system was generated using AI to ensure "Clean Code" standards.
-
-<details>
-<summary><b>View the Prompt used</b></summary>
-
-> **Prompt:** "Create a NestJS service using Prisma that handles user roles (Admin/User). Ensure the logic follows the Facade pattern and is easily testable."
-
-</details>
-
-**Result:** Implemented a scalable authentication layer with custom decorators.
+| Task | Prompt |
+| :--- | :--- |
+| Refactor | `Please clean this code...` |
