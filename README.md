@@ -138,8 +138,17 @@ flowchart TD
     %% end
     showstdprofile -->Z@{ shape: circle, label: "End" }
 ```
-### Prompts
-### 🤖 AI Implementation: Role-Based Access Control
-| Task | Prompt |
-| :--- | :--- |
-| Refactor | `Please clean this code...` |
+### Prompts 🤖 
+ 
+ 
+
+The following table documents the step-by-step process of using AI to generate, troubleshoot, and refine the student profile use case.
+
+| Phase | AI Prompt / Action | Technical Outcome | My Verification & Fixes |
+| :--- | :--- | :--- | :--- |
+| **Logic Extraction** | `Read this image and create student profile use case program in main.py` | AI analyzed the flow and generated a CLI structure in Python. | Ensured the Python model matched the existing Java data structure. |
+| **Data Integration** | `Reviewing data file structure to match student profile format` | Integrated `data/students.json` for persistence. | Added validations to prevent duplicate Student IDs. |
+| **Environment Fix** | `Checking configured Python environment... py --version` | Identified the specific Python 3.14 interpreter path on Windows. | Switched from standard `python` to the explicit `uv` path for execution. |
+| **Final Implementation**| `Update Completed: Replaced src/python/main.py` | A working CRUD system: Load, Create, Validate, and Save. | Successfully verified the logic using the local Python 3.14 environment. |
+
+---
